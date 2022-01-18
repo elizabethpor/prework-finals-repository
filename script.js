@@ -1,3 +1,3 @@
 const h2 = document.createElement("h2");
-h2.textContent = "This h2 was added by JavaScript";
+h2.textContent = "my story";
 document.querySelector("body").appendChild(h2);
