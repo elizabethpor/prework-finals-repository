@@ -11,12 +11,19 @@ h1 {
     text-shadow: 2px -2px 1px pink;
     text-align: center;
 }
+div#profile {
+    width: 1000px;
+    padding: 20px;
+    border-left: 5px solid pink;
+    margin-left: 80px;
+  }
 p {
     font-size: 1.5rem;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 100;
     line-height: 1.5;
-    text-indent: 50px;
+    text-indent: 72px;
+    text-align: justify;
 }
 h2{
     font-size: 3rem;
@@ -24,7 +31,7 @@ h2{
     font-weight: 100;
     text-shadow: 1px -1px 10px pink;
 }
-div {
+div.storyboard {
     font-size: 2rem;
     font-family: 'Snell Roundhand', cursive;
     font-weight: 100;
