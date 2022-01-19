@@ -4,33 +4,42 @@
         <title>Elizabeth's website</title>
         <link rel="stylesheet" href="style.css"/>
         <script src="script.js"></script>
+        <style>
+            img {
+              width: 25%;
+              height: 50%;
+            }
+            </style>
     </head>
     <body>
         <h1>Elizabeth Porporato</h1>
         <h2>profile</h2>
         <div id="profile">
-            <p>I'm an '80s girl. I was born and raised in the mountains of Italy, in a little village near the 
+            <p>I'm an '80s girl! I was born and raised in the mountains of Italy, in a little village near the 
             French border. I moved to the U.S. about 12 years ago. I used to live in Chicago, 
             and for a little bit I lived in L.A. and on the East Coast. Last year, my partner and I moved to St Louis, MO 
             where we bought our first house. We have a dog named Barley, and two cats named Hops and Branzino.
-            We all love it here! 
-            I've worked in the foodservice industry for a long time and prior to that I was a project 
-            manager in the enviromental sustainability sector. The Covid-19 pandemic changed my industry 
+            We all love it here! <br>
+            I've worked in the restaurant industry for a long time and prior to that I was a project 
+            manager in the foodservice and enviromental sustainability sectors. The Covid-19 pandemic changed my industry 
             a lot - and for the worse, unfortunately - so I decided to launch my new career in tech and 
             dove into the Flatiron Software Engineering program.
             </p>
         </div>
         <h2>my story in pictures</h2>
-        <div class="storyboard" id="childhood">
-            <h3>childhood</h3>
-            <!--photo of childhood here with over text "a little tumboy in the mountains of Italy"-->
+        <div class="row">
+            <div class="column" class="storyboard" id="childhood">
+                <img src="images/Childhood.jpg" alt="I'm in my grandparents' garden" style="width:100%">
+                <div class="top-left"><h3>childhood</h3></div>
+            </div>
+            <div class="column" class="storyboard" id="family">
+                <img src="images/myFamily.JPG" alt="My family having a cocktail in their garden" style="width:100%">
+                <div class="top-left"><h3>my family</h3></div>
+            </div>
         </div>
-        <div class="storyboard" id="family">
-            <h3>my family</h3>
-            <!--photo-->
-        </div>
+        
         <div class="storyboard" id="school">
-            <h3>school</h3>
+            <h3>school: Torino + Paris</h3>
             <!--photo of me in Paris in school with over text "Torino + Paris"-->
         </div>
         <div class="storyboard" id="move to US">
@@ -53,5 +62,6 @@
         <div id="button">
             <!--closing button saying "resume", if clicked opening up my resume-->
         </div>
+        <h2>my professional CV</h2>
     </body>
 </html>
