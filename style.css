@@ -32,35 +32,22 @@ h2{
     font-weight: 100;
     text-shadow: 1px -1px 10px pink;
 }
-div.storyboard {
-    position: relative;
+.column {
     font-size: 3rem;
     color: white;
     font-family: "Snell Roundhand", cursive;
     font-weight: lighter;
     font-stretch: ultra-expanded;
-/*    text-align: center;*/
-}
-/*div#childhood {
-    width: 1100px;
-    height: 1000px;
-    background-image: url("Childhood.jpg");
-    background-color: white;
-    background-position: center;
-    background-repeat: no-repeat;
-}*/
-  
-  /* Bottom left text */
-  .top-left {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-  }
-  /* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
+    position: relative;
     float: left;
     width: 33.33%;
     padding: 5px;
+}
+  /* Bottom left text over img */
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
   }
   
   /* Clear floats after image containers */
