@@ -1,3 +1,13 @@
-const h2 = document.createElement("h2");
-h2.textContent = "my story";
-document.querySelector("body").appendChild(h2);
+const buttonClicked = document.getElementById("CV");
+function linkedIn() {
+    <a href="https://www.linkedin.com/in/elizabethporporato/" target="_blank"></a>; 
+}
+buttonClicked.addEventListener('click', linkedIn);
+
+//const input = document.getElementById('input');
+
+//function clickAlert() {
+//  alert('I was clicked!');
+//}
+
+//input.addEventListener('click', clickAlert);
