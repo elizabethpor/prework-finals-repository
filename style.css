@@ -33,7 +33,7 @@ h2{
     text-shadow: 1px -1px 10px pink;
 }
 .column {
-    font-size: 3rem;
+    font-size: 2rem;
     color: white;
     font-family: "Snell Roundhand", cursive;
     font-weight: lighter;
@@ -41,7 +41,9 @@ h2{
     position: relative;
     float: left;
     width: 33%;
-    padding: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-bottom: 20px;
 }
   /* Bottom left text over img */
 .top-left {
@@ -49,7 +51,6 @@ h2{
     top: 8px;
     left: 16px;
   }
-  
   /* Clear floats after image containers */
   .row::after {
     content: "";
