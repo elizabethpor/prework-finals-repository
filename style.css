@@ -40,8 +40,8 @@ h2{
     font-stretch: ultra-expanded;
     position: relative;
     float: left;
-    width: 33.33%;
-    padding: 5px;
+    width: 33%;
+    padding: 1px;
 }
   /* Bottom left text over img */
 .top-left {
