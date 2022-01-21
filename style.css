@@ -57,3 +57,14 @@ h2{
     clear: both;
     display: table;
   }
+  button {
+    border-color: black;
+    background-color: pink;
+    padding: 10px 28px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-weight: 100;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: inline-block;
+  }
